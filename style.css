@@ -79,6 +79,12 @@ p.align-center {
 
 /* ------------------------------------------------------------------------- */
 
+.col-one-fifth {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 20%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -364,6 +370,14 @@ h2.title span::after {
     text-align: "left";
 }
 
+.product-image {
+    text-align: center;
+}
+
+.product-text {
+    font-size: 18px;
+}
+
 .product-image img {
     margin-top: 25px;
 }
@@ -468,10 +482,24 @@ h2.title span::after {
     /* margin-top:30px; */
 }
 
-.card.product-card img {
+.product-card {
+    border-left: 1px solid #cbcbcb;
+    padding-left: 12px;
+    margin-bottom: 40px;
+}
+
+.product-card img {
+    float: left;
     padding: 0;
-    height: 80px;
-    width: 60px;
+    height: 32px;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+}
+
+.product-card .card-body {
+    padding: 0;
+    float: left;
 }
 
 .card.product-card {
@@ -546,10 +574,6 @@ h2.title span::after {
 
 h1 {
     text-align: center;
-}
-
-p {
-    font-style: italic;
 }
 
 
